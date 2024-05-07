@@ -12,4 +12,9 @@ def factorial(n):
         return n * (n-1)
 factorial(5)
 
-# quiero ver si se ve en replit
+# probando el replit, modificacion desde Vs code en remoto con git.
+def suma(a,b):
+   return a + b
+
+def test_suma():
+    assert suma(5,5) == 10
